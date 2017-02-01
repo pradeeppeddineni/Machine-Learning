@@ -115,11 +115,11 @@ predictive model performed
 
     plot(model)
 
-![](ml_files/figure-markdown_strict/unnamed-chunk-5-1.png)
+![](unnamed-chunk-5-1.png)
 
     plot(z$table, col = z$byClass, main = paste("Random Forest Confusion Matrix: Accuracy =", round(z$overall['Accuracy'], 4)))
 
-![](ml_files/figure-markdown_strict/unnamed-chunk-6-1.png) Based on
+![](unnamed-chunk-6-1.png) Based on
 this, The accuracy is 99.5%. The out of sample error, that is the error
 rate on a new (subTesting) data set, here is going to be 0.69%, with a
 95% confidence interval of 0.9932% to .9965%.
